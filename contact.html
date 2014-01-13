@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>my portfolio</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo"><h2>Контрольная работа </h2>
+      <br/></h2>  Человеко-машинное взаимодействие</h2></div>
+      <nav>
+        <ul class="lavaLampWithImage" id="lava_menu">
+          <li><a href="about.html">Главные ошибки</a></li>
+          <li><a href="portfolio.html">Задание 1</a></li>
+          <li><a href="blog.html">Задание 2</a></li>
+          <li class="current"><a href="contact.html">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+      </div>
+      <div id="content">
+        <h1>Контакты</h1>
+	<h3>Студент группы 230105 МИППС 
+	<br/>4 курс 10-ЗКС-151
+   	<br/>Иванов Евгений Александрович
+	<br/>email: motrosov@mail.ru
+	<br/>+79180907771</h3>
+
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p><a href="about.html">Главные ошибки</a> | <a href="portfolio.html">Задание 1</a> | <a href="blog.html">Задание 2</a> | <a href="contact.html">Контакты</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
