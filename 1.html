@@ -1,0 +1,88 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+<script language = "JavaScript">
+var bigsize = "700"; //Размер большой картинки
+var smallsize = "350"; //Размер маленькой картинки
+function changeSizeImage(im) {
+  if(im.height == bigsize) im.height = smallsize;
+  else im.height = bigsize;
+}
+</script>
+  <title>Задание 1</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+<body>
+
+  <div id="main">
+   <header>
+      <div id="logo"><h2>Контрольная работа</h2>
+
+</div>
+    <footer><br/><br/>
+      <p><a href="index.html">Главная</a> | <a href="1.html">Задание 1</a> | <a href="2.html">Задание 2</a></p>
+    </footer>       
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+
+      </div>
+      <div id="content">
+<h1><center>Анализ Сайта <a href="http://www.rieltor-89.ru" target="_blank">www.rieltor-89.ru</font></u></a></center></h1>
+<center></center>
+<p>
+	
+	<div style="text-align: center">
+	<img src="images/1.jpg" height="350" onclick="changeSizeImage(this)" />
+	</div>
+<br/><h3>Сайт агентства недвижимости. Сразу бросается в глаза, что на начальной и всех остальных страницах текст почему то начинается с середины страницы. Нужно прокручивать чтобы прочитать содержимое, пропадает место и выглядит не красиво. В тексте есть подчеркнутые слова, выглядящее как ссылки, но ссылок там нет, хотя можно было по ходу текста сделать ссылки на соответствующие пункты меню.
+</h3>
+<br>
+</br>
+	<div style="text-align: center">
+	<img src="images/2.jpg" height="150"" />
+	</div>
+<br/>
+<h3><br/>В шапке сайта и в контактах отсутствует информация о месте нахождения организации. Не понятно где находится и какую территорию охватывает.
+<br>
+</br>
+	<div style="text-align: center">
+	<img src="images/4.jpg" height="250" onclick="changeSizeImage(this)" />
+	</div>
+<br/>
+<h3><br/>Меню сайта сделано не удобно и не понятно. В пункте «Покупка квартир» и «Продажа квартир» я ожидал увидеть объявления о покупке и продажи квартир. А на самом деле там находится информация о том что данное агентство предоставляет такие услуги. Есть доска объявлений куда можно самому добавить все что угодно. Проверки администратором нет, текст публикуется сразу.
+<br>
+</br>	
+	<div style="text-align: center">
+	<img src="images/3.jpg"height="350">
+	</div>
+<br/>База объявлений у сайта отсутствует. Есть пункт «Видеофайлы», в нем один файл и тот не понятно зачем. «Прайс-лист по Тюмени» не работает.
+<br>
+</br>
+      </div>
+    </div>
+
+    <footer>
+      <p><a href="index.html">Главная</a> | <a href="1.html">Задание 1</a> | <a href="2.html">Задание 2</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>

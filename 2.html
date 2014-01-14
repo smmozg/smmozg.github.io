@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<script language = "JavaScript">
+var bigsize = "700"; //Размер большой картинки
+var smallsize = "350"; //Размер маленькой картинки
+function changeSizeImage(im) {
+  if(im.height == bigsize) im.height = smallsize;
+  else im.height = bigsize;
+}
+</script>
+  <title>Задание 2</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+<body>
+
+  <div id="main">
+   <header>
+      <div id="logo"><h2>Контрольная работа</h2>
+
+</div>
+    <footer><br/><br/>
+      <p><a href="index.html">Главная</a> | <a href="1.html">Задание 1</a> | <a href="2.html">Задание 2</a></p>
+    </footer>       
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+      </div>
+      <div id="content">
+        <h1><center>Анализ программы GIT GUI </center></h1>
+
+<br>
+<h3>Программа предназначина для работы с репозиторием.</h3>
+</br>	
+	<div style="text-align: center">
+      <img src="images/5.jpg " height="350" onclick="changeSizeImage(this)" />
+</div>
+
+<h3>
+<br/>Начальное окно программы содержит главное меню сверху и меню оформленное как ссылки на вебсайте. При наведении на ссылку курсор не меняется и не понятно активны ли пункты меню. Я считаю меню можно бы-ло оформить в виде кнопок. Это будет наглядней и удобней. Так же на главной форме есть список ранее открытых репозиториев. Его можно убрать на форму с «Выбором существующего репозитория» и клонирования репозитория.
+</br>
+</h3>
+	
+	<div style="text-align: center">
+      <img src="images/6.jpg " height="350" onclick="changeSizeImage(this)" />
+</div>
+<h3>
+<br/>На всех второстепенных формах отсутствует кнопка возврата на главную форму. Это не удобно т.к. приходится выходить и перезапускать программу заново.
+Окно для работы с репозиторием то же устроено не очень удобно. С первого взгляда многое не понятно. Тут же и окна с файлами и просмоторщик файлов. Очень много места отнимает окно для написания комментариев к состоянию.
+</br>
+</br>
+	<div style="text-align: center">
+      <img src="images/7.jpg " height="350" onclick="changeSizeImage(this)" />
+</div>
+<h3>
+<br/>Окно с настройками сделано то же не очень удобно. Многие настройки дублируются. Можно сделать например выпадающий список с названием репозитория и к нему настройки. Окно уменьшилось бы в два раза.
+</br>
+</br>
+	<div style="text-align: center">
+      <img src="images/8.jpg " height="350" onclick="changeSizeImage(this)" />
+</div>
+<h3>
+<br/>В целом интерфейс программы сложный и требует продолжительного изучения.
+</br>
+
+
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <p><a href="index.html">Главная</a> | <a href="1.html">Задание 1</a> | <a href="2.html">Задание 2</a></p>
+    </footer>
+  </div>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#lava_menu").lavaLamp({
+        fx: "backout",
+        speed: 700
+      });
+    });
+  </script>
+</body>
+</html>
